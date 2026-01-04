@@ -27,7 +27,7 @@ The current PoC proves the concept but faces latency challenges in complex crowd
 ---
 
 *Disclaimer: This code was created during a hackathon sprint. It serves as a demonstration of technical viability, not a production-ready product.*
-
+```mermaid
 graph TD
     %% Definitions of styles
     classDef input fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
@@ -60,3 +60,4 @@ graph TD
     %% Styling loops for continuous monitoring
     style B stroke-dasharray: 0
     style C stroke-dasharray: 0
+```
